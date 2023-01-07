@@ -63,8 +63,8 @@ const Reserve = ({ setOpen, hotelId }) => {
           return res.data;
         })
       );
-      setOpen(false);
-      navigate("/");
+      setOpen(false); //we are gonna close our modal
+      navigate("/"); //and then we go to home page
     } catch (err) {}
   };
 
